@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/jklee-github/high-level-secure-web-architectur
 |AWS Shield	|DDoS protection|
 |AWS Web Application Firewall (WAF)| Filter malicious web traffic|
 |AWS Key Management Service (KMS)	| Key storage and management|
-|Amazon Simple Storage Service (Amazon S3) |Secure Critical data, static assets, and backups|	
+|Amazon Simple Storage Service (Amazon S3) |Secure critical data, static assets, and backups|	
 
 ### Detect, Respond & Recover
 | Services  | Purpose |
@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/jklee-github/high-level-secure-web-architectur
 |Amazon GuardDuty|Monitoring the CloudTrail Logs and manage threat detection service, detects potentially compromised instances or reconnaissance by attackers|
 |AWS CloudTrail|Track user activity and API usage and provide the logs for Amazon GuardDuty|
 |Amazon CloudWatch Event Rule|Triggers an SNS topic and a Lambda function|
-|Lambda Function|isolates the compromised resources (instances, IAM credentials, S3 buckets…) and further properly remediate the resources|
+|Lambda Function|Isolates the compromised resources (instances, IAM credentials, S3 buckets…) and further properly remediate the resources|
 |Amazon SNS|Send admin an e-mail with the finding information|
 
 ### Performance and others
